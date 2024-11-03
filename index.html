@@ -1,11 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Profile</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <main class="container">
+        <div class="profile">
+            <h1 class="name">GyungHun Kim</h1>
+            <p class="bio">Developer</p>
+        </div>
+
+        <div class="contact">
+            <span class="email">Email: krgrocon@gmail.com</span>
+            <a href="https://github.com/krgrocon" class="github">GitHub</a>
+        </div>
+
+        <section class="section">
+            <h2 class="section-title">About</h2>
+            <div class="about-content">
+                <div class="profile-image">
+                    <img src="/api/placeholder/130/130" alt="프로필 이미지">
+                </div>
+                <div class="about-text">
+                    新しい技術やチャレンジに情熱を燃やし、ユーザーエクスペリエンスを何よりも重視する開発者です。
+                    常に継続的な学習を通して成長し、より良いサービスと価値を提供するために努力しています。
+                </div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section class="section">
+            <h2 class="section-title">Projects</h2>
+            <div class="project">
+                <div class="project-title">位置ベースレストランのおすすめサイト</div>
+                <div class="project-description">
+                    <ul>
+                        <li>Java Springフレームワークを用いたWebアプリケーション開発</li>
+                        <li>Google Maps API連携</li>
+                        <li>ソーシャルログイン実装 (Google, LINE)</li>
+                        <li>JWT(JSON Web Token)を活用した認証・認可機能開発</li>
+                        <li>レストラン並べ替え機能</li>
+                        <li>管理画面開発</li>
+                        <li>GitHub Actions, AWS EC2, AWS RDS, AWS Route 53, Docker, GCPを活用したCI/CDパイプライン構築                        </li>
+                    </ul>
+                </div>
+            </div>            
+        </section>
+
+        <div class="divider"></div>
+
+        <section class="section">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills">
+                <span class="skill">JavaScript</span>
+                <span class="skill">JAVA</span>
+                <span class="skill">Spring Framework</span>
+                <span class="skill">AWS</span>
+                <span class="skill">Docker</span>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
